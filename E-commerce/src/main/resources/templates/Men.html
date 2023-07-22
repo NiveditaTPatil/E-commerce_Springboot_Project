@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"xmlns:th="www.thymeleaf.org">
+  <head>
+   
+    <title>Men's</title>
+</head> 
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+ <link rel="stylesheet" href="../static/Css/Men.css" th:href="@{/Css/Men.css}"/>
+</link>
+<div class="titlebar">
+<div class="heading">
+
+<html class="navbar navbar-expand-lg navbar-light p-1 mb-2 bg-primary text-white">
+ <div class="logo">
+     <img src="../static/images/logo.jpeg" th:src="@{/images/logo.jpeg}" alt="Logo" height="120" width="150" >
+ </div>
+ <div class="topnav1">
+    <a class="active" href="hello">Home&nbsp;</a>
+    <a href="aboutus">About&nbsp;</a>
+    <a href="contactus">Contact&nbsp;</a>
+</div>
+</div>
+
+<body>
+    <div class ="Items">
+        <div class="Items1">
+        
+        <img class="image" src="../static/images/Mens formal.jpg" th:src="@{/images/Mens formal.jpg}" alt="Men" height="250" wigth="50"><a href="menformal" ><h4>Formals</h4></a></img>
+        <img class="image" src="../static/images/Mens tradditional.jpg" th:src="@{/images/Mens tradditional.jpg}" alt="men" height="250" wigth="50"><a href="mentraditional" ><h4>Traditional</h4></a></img>
+    </div>
+      <div class="Items2">
+         <img class="image" src="../static/images/Mens accessories.jpg" th:src="@{/images/Mens accessories.jpg}" alt="Men" height="250" wigth="50"><a href="menaccessories" ><h4>Accessories</h4></a></img>
+    </div>
+
+</body>
+</html>

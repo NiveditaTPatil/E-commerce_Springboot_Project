@@ -1,0 +1,28 @@
+body{
+    text-align:center;
+     background-color: rgb(18, 206, 206); 
+     /* display: flex; */
+     margin-top: 20px;
+     background-image: url('./Resources/images/background\ img.jpg'); 
+    
+}
+.titlebar{
+    text-align: center;
+}
+
+.shopping-categories{
+    /* display:flex; */
+    margin-top: 30px;
+}
+
+.Itmes1{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+text-align: center;
+}
+.about{
+    text-align: right;
+    text-decoration-color: aqua;
+}
+ 

@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+     background-color: rgb(18, 206, 206); 
+     /* display: flex; */
+     margin-top: 20px;
+     background-image: url('./Resources/images/background\ img.jpg'); 
+    
+}
+.Items1{
+    padding-top: 40px;
+    margin-right: 100px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    white-space: 5px;
+
+
+}
+.Items2{
+    margin-right: 100px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+image{
+    width: 300px;
+    height: 250px;
+    margin: 5px 5px;
+    border: 3px solid rgb(0, 0, 0);
+    
+
+}
+.image:hover{
+    transform: scale(1.1);
+}

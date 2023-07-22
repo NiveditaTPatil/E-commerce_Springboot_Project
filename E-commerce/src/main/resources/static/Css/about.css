@@ -1,0 +1,22 @@
+body{
+    background-color:white;
+    background-image:url('./Resources/images/background\ img.jpg');
+}
+.logo{
+    text-align: left;
+}
+
+
+.topnav1{
+    font-size: larger;
+    text-align: right;
+    justify-content: space-around;
+}
+
+   
+    .image {
+        text-align: center;
+   }
+          
+    
+ 
